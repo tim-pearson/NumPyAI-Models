@@ -1,6 +1,7 @@
 # Machine Learning Models Repository
 
 This repository contains implementations of various machine learning models and algorithms in Python. Below is an overview of the models included and how to navigate this repository.
+For detailed explanations and mathematical formulations used in these models, refer to [NumpyAIModels.pdf](NumpyAIModels.pdf).
 
 ## Models Implemented
 
@@ -24,4 +25,3 @@ Principal Component Analysis is a technique for dimensionality reduction that tr
 
 Decision Trees are non-linear models that split the data based on feature thresholds to make predictions. They can be used independently or as weak learners in ensemble methods like Gradient Boosting.
 
-For detailed explanations and mathematical formulations used in these models, refer to [NumpyAIModels.pdf](NumpyAIModels.pdf).
