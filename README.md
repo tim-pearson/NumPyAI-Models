@@ -1,42 +1,27 @@
-# Numpy AI Models
+# Machine Learning Models Repository
 
-This repository contains a collection of AI models implemented using NumPy. These models are part of my studies on various machine learning algorithms and their applications. The models currently included are:
+This repository contains implementations of various machine learning models and algorithms in Python. Below is an overview of the models included and how to navigate this repository.
 
-1. **Principal Component Analysis (PCA)**
-2. **Decision Trees**
+## Models Implemented
 
-Due to university policies, I cannot upload any projects until the submission date is reached. The models soon to be added are:
-1. **K-Means Clustering**
-2. **Gradient Boosting**
+### 1. K-Means Clustering
 
+K-Means Clustering is a method for partitioning data into \( K \) distinct clusters. It minimizes the variance within each cluster by iteratively assigning data points to clusters and updating centroids.
 
-## Principal Component Analysis (PCA)
+### 2. Gradient Boosting
 
-Principal Component Analysis is a dimensionality reduction technique that transforms high-dimensional data into a lower-dimensional form while preserving as much variance as possible. This implementation in NumPy focuses on the following steps:
-- Standardizing the data.
-- Computing the covariance matrix.
-- Calculating the eigenvalues and eigenvectors.
-- Sorting the eigenvalues and eigenvectors.
-- Transforming the data to the new basis.
+Gradient Boosting is an ensemble learning technique that builds models in a stage-wise fashion from weak learners, typically decision trees. It corrects errors from previous iterations to improve overall performance.
 
-## Decision Trees
+### 3. Speed Forward Neural Network
 
-Decision Trees are a type of supervised learning algorithm used for classification and regression tasks. This implementation includes testing different criteria for splitting the nodes:
-- **Gini Impurity**
-- **Entropy**
-- **Misclassification Error**
+The Speed Forward Neural Network is designed for multi-class classification tasks using deep neural networks. It utilizes ReLU activation for hidden layers and softmax for the final layer to predict class probabilities.
 
-### Findings on the Iris Dataset
+### 4. Principal Component Analysis (PCA)
 
-Through experimentation with the Iris dataset, I found that using the Misclassification Error as the criterion provided the best performance compared to Gini Impurity and Entropy. The results indicated that Misclassification Error resulted in higher accuracy and better generalization for this specific dataset.
+Principal Component Analysis is a technique for dimensionality reduction that transforms the data into a new coordinate system, capturing the variance with fewer dimensions.
 
-## K-Means Clustering
+### 5. Decision Trees
 
-K-Means Clustering is a method for partitioning data into K distinct clusters. This model aims to minimize the variance within each cluster. 
+Decision Trees are non-linear models that split the data based on feature thresholds to make predictions. They can be used independently or as weak learners in ensemble methods like Gradient Boosting.
 
-## Gradient Boosting
-
-Gradient Boosting is an ensemble learning technique that builds a model in a stage-wise fashion from weak learners, typically decision trees. For my implementation, I modified the decision tree algorithm to allow the leaf nodes to return residuals instead of predictions. This modification enables the model to correct errors from previous iterations, improving overall performance.
-
-
-
+For detailed explanations and mathematical formulations used in these models, refer to [NumpyAIModels.pdf](NumpyAIModels.pdf).
