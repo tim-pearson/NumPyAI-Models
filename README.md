@@ -1,7 +1,7 @@
 # Machine Learning Models Repository
 
 This repository contains implementations of various machine learning models and algorithms in Python. Below is an overview of the models included and how to navigate this repository.
-For detailed explanations and mathematical formulations used in these models, refer to [NumpyAIModels.pdf](NumpyAIModels.pdf).
+For detailed explanations and mathematics used in these models, refer to [NumpyAIModels.pdf](NumpyAIModels.pdf).
 
 ## Models Implemented
 
