@@ -13,9 +13,9 @@ K-Means Clustering is a method for partitioning data into \( K \) distinct clust
 
 Gradient Boosting is an ensemble learning technique that builds models in a stage-wise fashion from weak learners, typically decision trees. It corrects errors from previous iterations to improve overall performance.
 
-### 3. Speed Forward Neural Network
+### 3. Feed Forward Neural Network
 
-The Speed Forward Neural Network is designed for multi-class classification tasks using deep neural networks. It utilizes ReLU activation for hidden layers and softmax for the final layer to predict class probabilities.
+The Feed Forward Neural Network is designed for multi-class classification tasks using deep neural networks. It utilizes ReLU activation for hidden layers and softmax for the final layer to predict class probabilities.
 
 ### 4. Principal Component Analysis (PCA)
 
